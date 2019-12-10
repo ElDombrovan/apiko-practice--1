@@ -8,18 +8,6 @@ const React = {
   mount,
 };
 
-/*
-const vApp = React.createElement('div', {
-  attrs: { style: { backgroundColor: 'red' } },
-  children: [
-    React.createElement('span', undefined, 'Hello world'),
-    React.createElement('br'),
-    'This is just a text node',
-    React.createElement('div', { textContent: 'Text content' }),
-  ],
-});
-*/
-
 const vApp = React.createElement('div', {
   attrs: {
     style: 'background-color: red',
